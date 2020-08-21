@@ -1,9 +1,17 @@
 *{
-    font-family: 'Roboto Mono', monospace;
-    text-align: center;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color:#beb2c8;
+}
+
+body {
+    background-color: #1b1f3b;
+}
+
+h5, h3, img {
+    color: #d7d6d6;
 }
 
 html, body, #root {
@@ -13,6 +21,7 @@ html, body, #root {
 
 img {
     border-radius: 50%;
+    border: 8px solid #454ade;
 }
 
 
@@ -21,10 +30,63 @@ img {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #082fe0;
+    background-color: #454ade;
     border-radius: 4px;
 }
 
 ::-webkit-scrollbar-track {
     background-color: #051c85;
+}
+
+#profileIcon {
+    margin: 100px 0;
+}
+
+hr {
+    margin: 86px 0 20px 0;
+    outline: 0;
+    border:none;
+    border-top: 2px solid #454ade;
+    width:50px;
+}
+
+h3 {
+   font-size: 26px; 
+   padding-bottom: 45px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.content {
+    margin: 0 100px;
+    padding: 0 46px 46px 46px;
+    background-color: #202546;
+
+    border-radius: 40px;
+}
+
+.header {
+    margin: 20px;
+    display:flex;
+    align-items: center;
+}
+
+box {
+    display:flex;
+    align-items: center;
+}
+
+.avatar {
+    padding-right:36px;
+}
+
+/* ul { 
+
+    text-align:center;
+} */
+
+.alaa {
+    
 }
