@@ -11,7 +11,7 @@ body {
 }
 
 h5, h3, img {
-    text-align: center;
+    color: #d7d6d6;
 }
 
 html, body, #root {
@@ -21,6 +21,7 @@ html, body, #root {
 
 img {
     border-radius: 50%;
+    border: 8px solid #454ade;
 }
 
 
@@ -29,7 +30,7 @@ img {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #082fe0;
+    background-color: #454ade;
     border-radius: 4px;
 }
 
@@ -42,7 +43,7 @@ img {
 }
 
 hr {
-    margin: 50px 0;
+    margin: 86px 0 20px 0;
     outline: 0;
     border:none;
     border-top: 2px solid #454ade;
@@ -58,16 +59,34 @@ ul {
     list-style-type: none;
 }
 
-body {
-    padding: 0 100px;
+.content {
+    margin: 0 100px;
+    padding: 0 46px 46px 46px;
+    background-color: #202546;
+
+    border-radius: 40px;
 }
 
 .header {
-    margin-top: 20px;
+    margin: 20px;
+    display:flex;
+    align-items: center;
+}
+
+box {
     display:flex;
     align-items: center;
 }
 
 .avatar {
     padding-right:36px;
+}
+
+/* ul { 
+
+    text-align:center;
+} */
+
+.alaa {
+    
 }
