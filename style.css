@@ -1,9 +1,17 @@
 *{
-    font-family: 'Roboto Mono', monospace;
-    text-align: center;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color:#beb2c8;
+}
+
+body {
+    background-color: #1b1f3b;
+}
+
+h5, h3, img {
+    text-align: center;
 }
 
 html, body, #root {
@@ -27,4 +35,35 @@ img {
 
 ::-webkit-scrollbar-track {
     background-color: #051c85;
+}
+
+#profileIcon {
+    margin: 100px 0;
+}
+
+hr {
+    margin: 50px 0;
+    outline: 0;
+    border:none;
+    border-top: 2px solid #454ade;
+    width:50px;
+}
+
+h3 {
+   font-size: 26px; 
+   padding-bottom: 45px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    padding: 0 100px;
+}
+
+.header {
+    margin-top: 20px;
+    display:flex;
+    align-items: center;
 }
