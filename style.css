@@ -1,3 +1,30 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100%;
+}
+
+
 img {
     border-radius: 50%;
+}
+
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #082fe0;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #051c85;
 }
