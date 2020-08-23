@@ -19,7 +19,7 @@ html, body, #root {
 }
 
 
-img {
+.profileIcon {
     border-radius: 50%;
     border: 8px solid #454ade;
 }
@@ -71,6 +71,7 @@ ul {
     margin: 20px;
     display:flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 box {
@@ -87,6 +88,10 @@ box {
     text-align:center;
 } */
 
-.alaa {
-    
+svg {
+    fill: #454ade;
+}
+
+.twitter {
+    margin-right:30px;
 }
