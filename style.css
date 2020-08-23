@@ -22,8 +22,12 @@ html, body, #root {
 .profileIcon {
     border-radius: 50%;
     border: 8px solid #454ade;
+    transition: border .3s;
 }
 
+.profileIcon:hover {
+    border: 8px solid aqua;
+}
 
 ::-webkit-scrollbar {
     width: 8px;
@@ -90,9 +94,18 @@ box {
 
 svg {
     fill: #454ade;
+    transition: fill .3s;
+}
+svg:hover{
+    fill: aqua;
 }
 
 .twitter {
     margin-right:30px;
     text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    margin: 20px 0;
 }
