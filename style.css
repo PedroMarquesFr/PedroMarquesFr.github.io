@@ -72,8 +72,8 @@ ul {
 }
 
 .header {
-    margin: 20px;
-    padding:10px;
+    margin:30px;
+    padding:10px 10px;
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -108,4 +108,20 @@ svg:hover{
 footer {
     text-align: center;
     margin: 20px 0;
+}
+
+li:nth-child(odd) {
+    color: #4d59a8;  /*#abb1d8*/
+}
+
+li strong:nth-child(even) {
+    color: #4d59a8; 
+}
+
+li em:nth-child(odd) {
+    color: #4d59a8; 
+}
+
+a:nth-child(even) {
+    color: #4d59a8; 
 }
