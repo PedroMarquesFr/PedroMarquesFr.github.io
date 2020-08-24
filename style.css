@@ -26,7 +26,7 @@ html, body, #root {
 }
 
 .profileIcon:hover {
-    border: 8px solid aqua;
+    border: 8px solid #333b70;
 }
 
 ::-webkit-scrollbar {
@@ -64,7 +64,7 @@ ul {
 }
 
 .content {
-    margin: 0 100px;
+    margin: 0 10vw;
     padding: 0 46px 46px 46px;
     background-color: #202546;
 
@@ -73,9 +73,13 @@ ul {
 
 .header {
     margin: 20px;
+    padding:10px;
     display:flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #1b1f3b;
+    position: sticky;
+    top: 0;
 }
 
 box {
@@ -87,17 +91,13 @@ box {
     padding-right:36px;
 }
 
-/* ul { 
-
-    text-align:center;
-} */
 
 svg {
     fill: #454ade;
     transition: fill .3s;
 }
 svg:hover{
-    fill: aqua;
+    fill: #333b70;
 }
 
 .twitter {
